@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Sátimo Restaurante</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: NiceRestaurant
+  * Template URL: https://bootstrapmade.com/nice-restaurant-bootstrap-template/
+  * Updated: Jun 06 2025 with Bootstrap v5.3.6
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <i class="bi bi-fork-knife"></i>
+        <h1 class="sitename">Sátimo</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#book-a-table">Reserve uma Mesa</a></li>
+          <li><a href="#chefs">Chefs</a></li>
+          <li><a href="#events">Eventos</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted d-none d-sm-block" href="#book-a-table">Book a Table</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <div class="container-fluid hero-container" data-aos="fade-up">
+        <div class="row g-0 align-items-center">
+          <div class="col-lg-6 content-col">
+            <div class="content-wrapper">
+              <div class="status-badge">Reservas Abertas</div>
+              <h2>Saboreie o Momento, Uma Mordida de Cada Vez</h2>
+              <p>Descubra uma jornada de sabores em nosso restaurante requintado. Mergulhe em uma experiência gastronômica deliciosa, criada com paixão e precisão.</p>
+
+              <div class="opening-hours" data-aos="fade-up" data-aos-delay="500">
+                <i class="bi bi-clock"></i>
+                <span>Aberto Todos os Dias: 11h - 22h</span>
+              </div>
+
+              <div class="btn-group">
+                <a href="#book-a-table" class="btn btn-book">Reserve uma Mesa</a>
+                <a href="#menu" class="btn btn-menu">Explore Nosso Menu</a>
+              </div>
+
+              <div class="social-links">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 swiper-col">
+            <div class="swiper hero-swiper init-swiper" data-aos="zoom-out" data-aos-delay="100">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 800,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "effect": "fade",
+                  "slidesPerView": 1,
+                  "navigation": {
+                    "nextEl": ".swiper-button-next",
+                    "prevEl": ".swiper-button-prev"
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="img-container">
+                    <img src="assets/img/restaurant/misc-square-1.webp" alt="Restaurant Ambience">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img-container">
+                    <img src="assets/img/restaurant/misc-square-2.webp" alt="Signature Dish">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img-container">
+                    <img src="assets/img/restaurant/misc-square-3.webp" alt="Chefs Especialistas">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="about-content">
+              <h3>Nossa Jornada Culinária</h3>
+              <p>No Sátimo, nossa jornada começou com um simples propósito: transformar ingredientes frescos em experiências inesquecíveis. Cada prato conta uma história — de tradição, criatividade e paixão pela gastronomia.</p>
+              <p>No Sátimo, acreditamos que cada refeição deve ser uma experiência completa. Trabalhamos com ingredientes selecionados e técnicas refinadas para criar pratos que unem tradição, criatividade e autenticidade. Nossa equipe dedica-se diariamente a transformar sabores em memórias inesquecíveis.</p>
+
+              <div class="chef-signature mt-4">
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    <img src="assets/img/restaurant/chef-1.webp" class="chef-avatar rounded-circle" alt="Chef Portrait">
+                  </div>
+                  <div class="col">
+                    <p class="chef-message mb-2">"Cozinhar é uma linguagem através da qual todas as seguintes propriedades podem ser expressas: harmonia, criatividade, felicidade, beleza, poesia, complexidade, magia, humor, provocação e cultura."</p>
+                    <p class="chef-name">Chef Executiva</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="about-image-wrapper">
+              <img src="assets/img/restaurant/showcase-4.webp" class="img-fluid main-image shadow" alt="Interior do Restaurante">
+              <img src="assets/img/restaurant/showcase-2.webp" class="img-fluid accent-image shadow" alt="Chef Preparando Comida">
+              <span class="establishment-year d-flex align-items-center justify-content-center text-center">Est. 2005</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5 pt-4 features-section">
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bi bi-award"></i>
+              </div>
+              <h4>Premiado</h4>
+              <p>Nossa paixão pela culinária nasce do desejo de transformar ingredientes simples em experiências extraordinárias.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bi bi-egg-fried"></i>
+              </div>
+              <h4>Ingredientes Frescos</h4>
+              <p>Selecionamos cuidadosamente os melhores ingredientes para garantir sabor e qualidade em cada prato.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bi bi-people"></i>
+              </div>
+              <h4>Equipe Especializada</h4>
+              <p>Nossa equipe é composta por profissionais dedicados e apaixonados pela arte culinária, garantindo excelência em cada prato.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bi bi-heart"></i>
+              </div>
+              <h4>Cozinhado com amor</h4>
+              <p>Preparamos cada prato com dedicação e carinho, garantindo uma experiência única e saborosa.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
+            <div class="stats-container">
+              <div class="stat-item">
+                <span class="stat-number"><span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="0" class="purecounter">15</span>+</span>
+                <p class="stat-label">Anos de Experiência</p>
+              </div>
+
+              <div class="stat-item">
+                <span class="stat-number"><span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="0" class="purecounter">5</span></span>
+                <p class="stat-label">Chefs Especializados</p>
+              </div>
+
+              <div class="stat-item">
+                <span class="stat-number"><span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="0" class="purecounter">3</span></span>
+                <p class="stat-label">Prêmios Culinários</p>
+              </div>
+
+              <div class="stat-item">
+                <span class="stat-number"><span data-purecounter-start="0" data-purecounter-end="15000" data-purecounter-duration="0" class="purecounter">15000</span>+</span>
+                <p class="stat-label">Clientes Satisfeitos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Menu</h2>
+        <p>Nosso menu foi criado para oferecer uma experiência completa, unindo sabores clássicos e contemporâneos preparados com ingredientes frescos e selecionados.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <div class="menu-filters isotope-filters mb-5">
+            <ul>
+              <li data-filter="*" class="filter-active">Todos</li>
+              <li data-filter=".filter-starters">Entradas</li>
+              <li data-filter=".filter-main">Pratos Principais</li>
+              <li data-filter=".filter-dessert">Sobremesas</li>
+              <li data-filter=".filter-drinks">Bebidas</li>
+            </ul>
+          </div>
+
+          <div class="menu-container isotope-container row gy-4">
+
+            <!-- Regular Menu Items -->
+            <div class="col-lg-6 isotope-item filter-starters">
+              <div class="menu-item d-flex align-items-center gap-4">
+                <img src="https://th.bing.com/th/id/OIP.eD4x65lJ6Gn1Wu1n1nZxqQHaFW?w=259&h=187&c=7&r=0&o=7&cb=ucfimg2&pid=1.7&rm=3&ucfimg=1" alt="Starter" class="menu-img img-fluid rounded-3">
+                <div class="menu-content">
+                  <h5>Carpaccio de Abobrinha ao Limão<span class="menu-tag">Vegetariano</span></h5>
+                  <p>Finas lâminas de abobrinha marinadas no frescor do limão-siciliano, combinadas com azeite extravirgem, ervas aromáticas e lascas suaves de parmesão. Uma entrada leve, refrescante e elegante, perfeita para despertar o paladar.</p>
+                  <div class="preço">$45,00</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 isotope-item filter-starters">
+              <div class="d-flex menu-item align-items-center gap-4">
+                <img src="data:image/webp;base64,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" alt="Starter" class="menu-img img-fluid rounded-3">
+                <div class="menu-content">
+                  <h5>Risoto de Camarão ao Limão Siciliano<span class="menu-tag">Frutos do Mar</span></h5>
+                  <p>Risoto cremoso preparado com camarões frescos e um toque de limão siciliano, realçando sabores delicados e refrescantes. Uma combinação perfeita para os amantes de frutos do mar.</p>
+                  <div class="preço">$85,00</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 isotope-item filter-main">
+              <div class="d-flex menu-item align-items-center gap-4">
+                <img src="https://th.bing.com/th/id/OIP.vZ_JulRuTDrXrErdezTHHgHaEK?w=310&h=180&c=7&r=0&o=7&cb=ucfimg2&pid=1.7&rm=3&ucfimg=1" alt="Main Course" class="menu-img img-fluid rounded-3">
+                <div class="menu-content">
+                  <h5>Moqueca Vegetariana<span class="menu-tag">Vegetarian</span></h5>
+                  <p>Uma versão leve e sofisticada da clássica moqueca brasileira. Preparada com leite de coco cremoso, pimentões coloridos, tomate, cebola, palmito e banana-da-terra, tudo cozido lentamente com azeite de dendê e ervas aromáticas. Um prato rico em aromas, cores e sabores, perfeito para quem busca uma experiência vegetariana vibrante e acolhedora.</p>
+                  <div class="preço">$59,90</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 isotope-item filter-main">
+              <div class="d-flex menu-item align-items-center gap-4">
+                <img src="https://th.bing.com/th/id/OIP.b_0oXFaE-KEd4ATihrjeFwHaEK?w=210&h=183&c=7&r=0&o=7&cb=ucfimg2&pid=1.7&rm=3&ucfimg=1" alt="Main Course" class="menu-img img-fluid rounded-3">
+                <div class="menu-content">
+                  <h5>Paleta de Cordeiro Cozida Lentamente <span class="menu-tag">Escolha do Chef</span></h5>
+                  <p>Cordeiro selecionado, temperado com ervas frescas, alho e especiarias, cozido em baixa temperatura por horas até atingir textura extremamente macia, suculenta e desmanchando no garfo. Acompanhado de molho de vinho tinto reduzido e guarnições que ressaltam o sabor marcante da carne. Um prato sofisticado, aromático e preparado com técnica e paciência — perfeito para momentos especiais.</p>
+                  <div class="preço">$99,90</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 isotope-item filter-dessert">
+              <div class="d-flex menu-item align-items-center gap-4">
+                <img src="data:image/webp;base64,UklGRjwUAABXRUJQVlA4IDAUAACwWACdASqnALQAPp1Amkolo6IiKJoNALATiWIAx2Qhzp/Z/lb7Ul1b7ggT5hkw/qffac7x5x2/U705agTZrX6Z1eZOrcAjEH/ceBrunF7zrfq9jRoAeUB/seST9n/4vsF+W17JP3i9kT9wjxASumpzW9ArX7+9vClYuyMTE0BsG8p5At+IN70a2l0orJRlxmN10pjTPhWMIaaW/sM/BB+Kxz8ZR3QLT5ydCzb/v0l46f4je1m22quoLfdIwlNaZP1X/Rij+lJPAaXYRQIdIXydNaLBTt3yyzu1eOW9mixL94JIog7i1m69QeuL/U4LBVECGSoVKJMk7OIYqUOAsw7WAc1KM1e8LprOLW4DD2o6hXUMSArgzBXwVkB0mAMc7+vQ0JvJ7XqHfPY6djRW7GKYZ+3i7BmGbvHNfbGhp6Vva1Gy+VGTXEAnSuYxBsJezQPMd1JTDWUNd6MEnBW7qW9iROfyz+VjnZbY9c/itKB4+51IetdOac+O0jU5vc//Px+Rmoi3198PaA6rbxvwe4rxAdOQueIeMzd5fdRbIqXR+XOYKLMxTrq7qs4YEtIbDFErx9RJuiapA6MYljc1FHD7NWJ9qfjHwaxlwaYWv8SCZ4UQAqebXgDhtpyvAvNOvAa4tsr0Jut9rWeCb28GfoBR+xBMrT1+e3Vfma49LvtUSwYnHUytM/+Ga9HukdJsm3fyjur02TWrZeESESsC1S0dxadm6SiLqs8ofSnJs86d4b1jRzzwrBTNWqQYol+W3I55otNKqSqMnEh/s4kKW1tvefibX7Njzlo+DBw3bBLYfoe3vsEyc+FW+4VQKBTcu7xKynf9CHqMEXCbzFlLVIGEFxnlKXaDhqa/IqDwjaQ2wxxnJUyQ6XSZZ47T5CDlg3A1yyhmkYeiUnL465UU7vkMHBneP80CXrLVysXZ4/j60HHPsEieGws8VDSMnKgAAP75bLOChE+6AXxw/XwpAr//8M4A4Tr5BapEej75WPeMj1+fENLcM9qCf8CPqWAuKhnmsqMpJKEx4qiFOOxUV4bYio+1fmXBQzhhXOi5Z4lHHrvfWP3QyGN4boJvWAIKhzuwNGFjDvI28d3uymdKRQcG9aAqjZqjrHkAmKYZyecTMwecM7NN5Y5XPHWoNob+QfIYBGOUdWBj/LXEasWQY57MYI4iznAmEpWzX0lWaToOjdBdJX2R7ZEhpM2wqAaokCqBYUo5wJnyPwgdhDKv0Kuo2ji/xFWv4PrQMY2Uafj7IgG4Dqk09+LBNSwaS1AJFI8GAL1ZbIb56jw2IL+B9o8ou1VIVyrqlYfr3TIbTlwdvQwx0Qa6zgWEpWlZu+xqvhOekAVKoD+TaFHOZld31HdeJTj+xa3uHRASSVT6fUStw/WrS9aoHK6aqAwcmgaAVB8unrX500ty/apkerINR2ggml1WSAxTt2KQ+Fl9rntGcvVRaM1Md3b2+wOBaN1OtdNzF3FuwPTY8gUSgYM3bZ/ixXbeJywO1sXhPoIL/Wsc5tSVfiD6kOBAjMGsGYz8w5G9GfrdIz6hb4Ly36e5JQGjKAXIyQCR/hveYx+94YQo9YX3tzhKrwwFk64Im6VJSbvtuA3wAFEibqRFYtFQZgkf4qoWQ4niEC3akjtAJ5fRZgRMzW9rYJGKpEC4OOqq270f3zVEU6/bplND+eqpAjTidjWEBDNky4DCZ2FLvCXMGwC0BxGR+l1tvwY6x6gvXTG3i8CVOWCgUXXls6SkFbzx3huleRiFiPp4kFjxZNmeaRnUTPyjZqs/2xL/xj5ZFOWa3F4XFRi+32KHBWXp5lNTldOFdWNP4k2iZuaQ8zP2+69SRv0rijEo9qDBvcVw9mM5KnaS5raCFidz63tuHBnmg1wAclA6J1hnsHExYVt5UmnaOBu7/LSQnpVXcoe4IS8jPqoA9ixXgNaiObh72tv8vSHFtOdLoztrCAGYZD55FRkkXsPbmW0oz2S1u8Xb4/pgeUIy4J2aTVmbYOjCL/RhwZJTtLkUn9FWwlREkOuzn/larIRsNRR6WtkievxVTasqUbwKq3r/z/x4PCbFVtsdsqUBIWKnCXV8MII+lVmrXMxvlHBpYn/Tt57UA3anZHy1uhdn5E61+KYgjZSejhJleyh80E5cidv4XlxnYFNbnUisWZ8YPLEu42vn/Td31pB0MonFbLB2Bns5TdgGcbxaEzzNzWllk0GgY0sYsgAg22sBeThNBFhYE3FbKmy2T7iKiyKelcZqwLpk8WqmKiutsILKmsV2ahm6rYRhtFAh1MNV45kBFswURGOAD9cNhJX8M1HBseYdVNBy6GfOZSIxckmY4MAruc4EDNeilcgCYfrgx51z/6rMHCUCGtpdQ7PfzTzY8zz88ZjFrxa20s28/7PJ0j0l9Z9rdllGSwhv7tzp/sIsoBQ9eC/5GAMOOmbj+m+pTpVLLGGJFimylgfxKa42pWFhQe2A7LUeeM/v2Xozff+epXRK6aKgpNHqJCzgc3jOBegKUtjgyibaKVYjDzh6NvveMrrcZXQoYjyqPj8rN8ik3oDXf9QaYDK7NzO0KhIM46VXdcAG6qOAB72R0A6wR1Wt045xMCG9C6itwftKRzKrp4X5LgVAOeH3iCM4bpXueDu0j+ITvaKvRUXnfmpwWitUuUKdle7qJ3Z8v+wEqFus1Jag7kRVMWM1L5A378kfXcIbrVtWM+zNNJ3g+jMLbheS+9JHKD2F3SBSJTGTWdtT7zDb19/NVFStGx30xkCTkZz1gJWoOU/86UYnJ+Ybkz7+exM34FwZ4+Adew0VobLkrQ/4uBbDEWXcf1XuMgO/5HRkVl5XqQa4LsF675LVj52cYXwRXn/GVytAajejsNqts8vgN1u8m8E7jiDYwN8ViN5Nmar7upgDWAN3h+YmAqbD67HwSaTm7ZUAES50s19QshI912b2+7bIPZZtLSG4/jmr5LJBHYO03VoLnsOqfjjtsu4vNVBVGGfWnohuh48SkWfQHaspyNhWwWVTuF+b/sL0cy6e0cgpdaa2YxvQHSiLXjAZNOE44yutxjbdeXFRPaQCLc4Dxix6pkOI707OyiFq1WitfY/shfcaxnw96c6GyFloWUHaWGJnlpT9foAQa+Qmz+Gu5JE9IwwEdrwDj4Pa9RqQ4jUreUoBwcZCArBHT+IMf08S+vbCSSNn3AUgD5vame3NJ6UnzrWV6NdwPXQyUqGI/hoP4I8tkYb17uOPaHTn3Ac9h9s2R9kW/3LUQy7nFFp4MDBbx/kArD/QW7GvhU26ekQ7SLnTYAa/WPenBklotkK2pdZV70Px7teCDMyjeDJd+RKfwGUm5IGGN70Om16JGXRzStc8lfwMx/oMIffCrNIfxmcxxji0o6d/azbXGfpMFAV5Hggia6+Eggje5jOvHj7AYwe73TFWnl2dSJIKdFbWJRQGY1NWIsz8xMXcsTC/qei1rly0wLq9SdDv8oL25pDddZPoJOLI0zE57Q2UDl6uK4bNLkjAFPsAMJTgt5oGI4vroaUUihT/PFeORNUUugCqK5WULldSl1YdnSMSVTsy8zGqqrxFZ/7jt7710QZyVJhWWNcDR0UdJPa77bvCFxlAlUF5ZfIGWLWyYVMMAHr2J5WH4Qo9McesDRqw2c+eo3rJmZNcopLALFV5cR5h19Zie9U+WVmS6HYACo3Ct7Bzg2ka6BaNyx3njjUl0jbQIKoCQcSTYElytGH3CA2wcRZLH5aZD31d6PUGJFzQ3SfUvIUXRLKOtX3oL4SjjR0iTH4EFtbf0U+6tnB78ctPqp8/rN2nqSftPtvcqqGWcwW4G/X1XjVxqm16LBBh09WzNfGPBxPMkkMyacZE60lNAdz1NhI6nsLigg0IRQ9EuL/BS8SJOQ4zskeToKmMN7w1uN0dROr14Hvd1ZeBk6objYFloeaeMcllqZN7Wie577Jg2JjquOuSvj4QjCWYlDb967kld9RHrhXz3XcWOpbAlCHV105c6XaEscbfFjnTflB3oivA2cZyci0qoa5wkN2Zek2ZYZ7qyj6YlvGOSEaBaBgPAgPq8Z2QvqLoUX1aRIsShyrd/VHadotyUxiflLE1apgut1Ra+kq2rtQO+5IPO72LykBgk9XsgMk7Qsr5afjpRkaU4Xy7pETJr1yzQSvSJdGZ5gQ0ygHivwej1vhggQQQ7Gzxv4/ds+HTUFtcyE57O2LabZobj9HnO7eVEyyvspYEftyiLwRAfXCYdICQqivXOv3/RInjvySaQtOlyaWh0HVt4Re7Bwo3enFxWTNdwr0thPJTtJMEdOiwOcALTLQaT6BGVF9s0m8xb8QDeaNlCDPT8jSl/nYmC0wfql3JcOzBL2nJrzn9ZF80vlF/KrsfmUKmOgXsX1CSo5US4C4a8eiXv9GypvzVMqcpQFe3mVs8dRPOX7II5vl/rP9lEAHjCxmOgNLoGQI7JFYbremSnqj7QCPMV3N3y3Acf64dYx9fJcnOu+iY7l5sUJJ6BlVb+PFa372HyR0AvakjrZL2rYuQSEMlDfqyyMZDmaS1ZI8cF/ldSSoUYPsjAAaU/cLBHLI9Y6AhfvYMtLCqf/BeWipweLwAsZqWO7Qn7O8bmAs8VZ5PTs8Mt98DIeGICRjQHEuLJsEhHjyY2LT6mG6/pprmtrNn7Y9SwYtz5YyZhuLfsgGPeYavOPnnDAj+BL6n3v1cn1D8I3nqrO0dFCt3We/517QGzGj5OQwkSuxvq2FAGFToat77PVezo5LuCl/xHQa/FnXQ/kwZz19kMoyllmuhh1GaQ5VQKf0KyIZq2VMnq1PbtlhnPxBLpznyhihIiBP0WenE39wJ4MFob5JOO0sUwSSNytaieWTzLPXHoSPo2umFUDXrxkykRLt7dGuQebCbwHm0yMwTzUOn5etlx9vwc1g+5sg3rfcBCYHpjm8b9QJ78y38OIOS4xdOyruyX3j3a14Rz1hfkfL5t1Jb34uyqlLFJaIpuY/SnHQ/WH5qWe1gXagQCh5pICsao0KwdxFV7rAZ6jPZaZpsy0lqFl9qhA/pttTLPVl3Q3Gt8HzwRnHYGZY6C58Ll/NiofV+MIg3lcD3di2TyKphJ/jgWYBxY9SrSjq7kKDf+5cid/GS+S4g9TUIB+w6C2sEDb09at2P03QuevNXS6r3Ee5R/kHcOyyvas9YOnm7aj0F75dpLJrRY+PP8XixgCTtcwsUcn29uDqe28B2IFwPP2wbLgcbFYYhFayT+YE0qYtqM2IDDmOAkyXvqTOSa90QbvpoAAYHURPG/rzglhmgIHaUYO72vK7XZDGzGI1nb+0TGOYIDGFKeI+ejXUgpRwzFdzbnnZ5GUgECguWZDbI7tv/cafzAqPjIupBpob88N+DlY3r4oRQR9Nt9dtRuSeGx0uBTSuBuVq5jki0YXg1Bgz08skD4Fa5xRd81qV03vTMa1k9iY/ldu9cT4Y+/J+o7OKKu5bj38PyBmo9gnBXlmZYk/fCI5/y7cZDULc10cPOMdmzGI1pmo2vy6639hePFgH77HbNlJsU4uIw0bTSDVW25c4989FlXnnVpJahAfq7DtyjhopbJF+09TUvkCnQVhvmM8URs5oofi7WNUpJ7W+MHjB8QTQjgeUVbadZDro46ZUHmwi4fbkIO7wbeF5kaf7d/QyqeeH1s78xSK3ygG+p4ye4VcEUdLzDgyZpde3nR9kgIsZhumFjo6b5fIXuGMwbDZOANxHC8aTNwlFB07pzhrJtDHCRlxJHRT7wGuNaOXPqdt4wr/VlkbrzHWQ6hqjfjDQQSKAIeLpGu6+jDSpbl631FKGJirjC4tB8UAXpAkkNWfr8sH9shRPtfCnQI0/LlyHPgL+WuAOn8+2SkFYh8QnAhns+5rUo/Vm2H0vEH+Rqi4IDhaDrVsV/SYvltVH3cQP0ppFZwH6MaZKnaj1/44DNeMVB8cgCWBMbmxSV/xWHPHQ9OetoyTXFxCCinZBHaSNEsOkYQvDTv6NGaKTMTMsftjBUPDJp6Sy89idArjpSiQGlC69owBtlh6o6RV52ehDUGvIzlC3a2Tdw6u4oiNhJ67NzIw5ZZWPOC4K39MnTwex0uTHex3iEORQe+Ec6tW59uQZr0EYZ063hYQJax7mTBSUlLFsoUzpKpB1cPEacVRGh67gLith5MaZ+NUZP0G0P/Nv5dGCQVUUyEkbjHnjgDHXg6hp9wMAuakTGiHlMy2H/nlPSsDgWb8b3LWEr9Lycdo0bhsAmPEiMSnbAhYeZMfFwDYwG255UeNC/h7uouobJlTyhYRvOVDsNyTlMQ0GigSexnAnK9nB60FzHPDk/DyvH5Ea108igKxZZi1HnhAOVE4VDkXpkY0tGWjmKjMvMD/P1ofhQ5fLiVOsEoMaR9yMWVD6aG5jk2qwGM4onx2j334m1TFTRCBsD4WZ9EuyR0xbwbiDvj4i7q93XEempz6RNaoGSWMqLKNIqII8ug+kaESNSSy+FGi4OAp+4hsG05djQjDVcXmgQnOYQYKKzu1A8fCLkXS9qCIBT1w8UGS9DBvGpCYc1GwxgnFcA17pqwXX9dSk1Z5tHcK2eW6oxKuNXOEzLdu2xfiAiJNIUcMy9wc+mxNGF0rOmkPmTfeyS2moccX7Y54ZVNS7BfG6kDMIwcNYBTIo4iit4abiIRJzARwxwEJ4AdaotJJfv4A0FVJUud6BYNbZYW3q0P2U05wkj+n9V1f+g9iDXskYvP5iIklDFqRyKmEXXDvV8zCUNBknOTE8OM0ondH+viu/bNNoKf9AXKRdhxdxmB5oAIXKQBx7blxKqJNUkUdKfKPRp1tmSDAHl53wvvdWGa8BRyaebzksSirYnhbyogJisxMeeuUP0I6clwy8EDB5D7ogT/5ZiN+sCxegzNhkBIbQAAA==" alt="Dessert" class="menu-img img-fluid rounded-3">
+                <div class="menu-content">
+                  <h5>Petit Gateau <span class="menu-tag">Sem Glúten</span></h5>
+                  <p>Clássico francês preparado com chocolate de alta qualidade, assado até formar uma casquinha delicada por fora e um interior quente, cremoso e irresistível. Servido com sorvete artesanal de creme e finalizado com calda de chocolate e toque de açúcar confeiteiro. Uma combinação perfeita de temperaturas, texturas e aromas que encanta em cada colherad</p>
+                  <div class="preço">$29,90</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 isotope-item filter-dessert">
+              <div class="d-flex menu-item align-items-center gap-4">
+                <img src="data:image/webp;base64,UklGRlQpAABXRUJQVlA4IEgpAADQqQCdASoiAbQAPpk+mEgloyIhMVZMeLATCWIAx6AwK3ec6K3lXw/9PciPiek3cJ+cDzlPOV9Irqx96Z8mbB1eX2KzppD0uP7Kn+T37/P3UIxg7dUBfeAzofsdjMoC+Un35v3j1EemV6Rn7blqCjkvjUftqa5d+6RN4d+tu4sYSBh75hnXOo3CCWjmjCcz+Em95k26j6Gf91sW/yhO6B2UV6xiBxIeXUFGpdx86Vgw+teTJj6LM2YYjfspZbslWerH13a50d57Qc/SpRK9IN7B/58igv9JyatauOQD22XTjLfi/UkUDl/8FVrjYMVbNnDLbMfWPuGYsF7NQQniqFqZW783tsYDcAFh0+Nas0dwPYwkRZmy+x+iecJfxS2pexFuDYUGABo/bS16fscW/LXiqsDJQxRV/5QUshNmwHx8ZQ8Vso9pqDDXtWGasM78gtN0VdmeOorrPZGZjThKTQVTvsN3FuJwRrpGioMjQKIrctpTSodrYR/sl6M33pfAellc7swd7fBm8UItneIjgThec+N1gGMlcF3shCO4YipRbWfkikWqmxFfOBICtnV9vXSce3GbzRlfMsId9Ilx+cCxo+coWcT2VQf97uGNS0QZoia+piNjEtH+W9/v21kvPsac3wWVzgYEGqqeIMh14VWG1oUfsqXeBk+OlUlNOCcAFExpUwmnrrJyQtAd7ECe+9d36gcLNuvR6fRk9IJkUzUfURE/lPLsMkWYpr28WGlSguPAEOjVTwvfYLehXlhhRnYz4IUuTrOosCj7Bs+wch3GscpsW+lGDSBtGeFY3lUTZOUsqqAuYsIC2lUoBHH7DBpwVHp7HylB9P9pcLlEA0/NNMzodB0Tl1e2w5nGUQ1epg8HKL4MeKFyJ5dzlr4lagco+99NR2sVwRQDpXavApuuvAs9boqMqLp39mzh9clMLCoTElGGDcwJA/NtgkAbJmCYKDlWNgBmaU7EUP1YhcbYJy/cwsi5pv5MrUwvjXTistJPG1SDSDu6YeLWOiRqHEwf/HHwX5xp2CB2wN80atx+FdhtbDYqYHo3MpXbr3I+TJcDMOEJewJVwnG3ifwY6estr+Wouc3C3C3PXi5O2YWu+oY60qL1zDQM+RT7bIP+38gkIe+hGxouRoZJTwb0RCrnNVQoaHeYhK/TLpv5J5Bt/aKH5opUqraaHe3ZKG0jdkIMM5Era2nBpXPCm5kePQCXyiUzmLSApbbRQP03Pr9oTBWZRBefl12Aj6Uj0YOEMe18rFcZ/wTFHA1zK8RkXgeT+b9KTEUn53kX00nhDL4KO3iI/X/Zmxect5cZqnTpaJ8hINGqCjvxK6pnz4F8/uRNWPWwFcG6vd97aXODJGOkuGsot18/QHOOJoJRGLMQj398DQHR/zcLty5v8ydE4+c8+IsY6J0MOpNvwCfg/HVhiCQQHAli0ci8sMxknt8de8VcObFrK+JYtX2sHU9t6svEzHWc8RHCJ5vdQ+dD8yXzlPCo9D+lGuJLERqi7sYzUka0Wm7+lgibsiBGGxkGIy9D/kF7JbfkhaITjLqzts2jxjUOFZuI8ecF382B4QjaiFjGlshT8jnrfGO+Mqa/wc/BqiDiSt/xepXEVcMZh59YMnwckyvHb5PBjuhYfwKvCPoAzkcKohhdf+S9yK2Ej1toWmPI+FxzEo3WkSfR9JS3Muc7b3Vz+2CsB6n7fO8do//OGmOn8jQwD7Uh+Xx7ynGa95X6v//94ysvxJuqSEHWPS/y9+gPOjQ+BfwAefmzt5uHtsRU0faShSyCBn/07K39d8ORCm3YL2X1ckqKImRkyWZRn7gigAD+/BJYd+8N1esxMGY6KbNB9I4fDBylCQmQ12x9jft+KmX8xkvEy7vGiGqc1NDyREv1VjdLj0tA02KdChFgNzxZdL3UWIMcA3tEjfMgEXF4chQbntCvMsA2ezPJPF1WoGZRJ5kMXiFv+4r0gTPYjIIw/IoGrNCY7Ny8binauQOwJef5ybfUNAbbS/ZZ2mqIjIYzkN7QWaOQVRw4Osn0YGl4Bk1mKCWD96SBtkL2VmR3k6ckgQE9MJcKxvwYgVGzbfs5zhLdLdXG+a0ErIj2HfCJR4xtYrhr7SoKxn3Apz6D/dGKDTTO10rwLmfr8+WUGko+MqO3uBE1XQSrOwMzhkNixSoiNSy5hZ5ocaQbifkDQnCO58qhq5buPPHBwb3R7tJPRoRfZb+Wh514aNy3PqOCGPEkE/OYKHzdB2LJuIW2ljKCIOe5Y5ieFyiSuClD3wks2+xWDIpmznFYR/2JrAVIuDp5p7mALI8IvpJLtiATpYU8qhOqFBljlQUapCg5iGi7QlHSrJGQcDyR/iNSF2JtvGgXawUsv/4VEBRjxvEbJi0uafjy7qEtnJrHcN5yWbZndmfggu8NUKFy7Oo7s5cgncf+nWYm0zMzNAbyhjbI5M0+Z2+HnVGdCvo71V8LKqauNMyqF+9e+jDpQiOWGvL/F7aqm0xNQeZ96idoSKtooG+9DhvKl4qLTYMQLIJNfz1iqxgEfxTYMy/fVxl9kMJaRhbKrrkXzTJ6wmZrlTIoQWd6sK4AnGpHmqQVvncC3FjZgrLG+6U2o+Kgrx6l91yGyfiQawtoYXygn0PtMbmvm+KYk/vsf2bdiUD8/t84tGNpeGRREzeGB2ccP5dXX4ecrFe+zINJouSGHGqpwOiEN/VdeNHPaDqpFFOT2y+MxA4n6taHKyaVRqiXjmVCQFwLLkxHNOnz6uc9frPk1yVG/iogqaWI5sYxF3XMkAIBgWda8sVswzg0z8qdHVvwKIk/mmZ4UOSNQgc/zLG45uoBenRK3jaxYmx7GkfO79T+MIpUz7ce0dDgNdAGykbiE0q9ICxFXJs2JMdUhhMgFrAUVTlpV0NQU3Jdge/UMdHpq+lIghoBmxtKTBtisCfofmufXB6Z+lS4fxPCqRLEgX+imoAU6juiMz0ymkJZ2S9keLeNpYPoT9FB2oJ5gOxolj0NHk9OnbYG9x1EyLFFC6clGKOHdkWEEFAo//njH6S0dTG2WFfjVzrGkMhTUldtQYo+WOk4lbEfNBo3k1s/6UIwlp3btPae6viNF/TAZfObjyBXzP5TyyeiwB70xNV2+NIE0SLMuHic2eMJXwSglRKVEqo4loCPo8IJSBDqEGqEi58FOyh79fxtEpz1ueKtVNIL+6tE5ZPxfbPyw5uMY7hUR2Jns6HI6TzoxffDeEjqbFL97dc88VUhnykQe3Xj/xxbrEkxi19xk9RfRC38b6JfWEO4Aeg7RkYMa7p8xHlvyD4bt+SlMyopO3yTu64YnMsw2We/LTRNrbFJAgCKa3Fee9OXfSK6yE4qNlkiJj4eCGMk7xHDQzi8il5/2FbmG0qnQ11J+djjdSXTqjxueTQadRYg1a929pvQlRK5KSchDiHDszxw07Jnzxdwy1z57WPDqAdopGe3p3Z8QjZISzAdAvNB91oPkMJ5jXW80R2XSo0BqVQiHcJQfVTwYF7GQ9YfVYDyq3oAQjESUbHS88ukvU3uWhhiWS/JeTPAkYhb6HPaB5iSpYJlOP3wj5N4Az+8tQHG/ERilju7eVnVITzJISY9317NWjKgb5zZUXP6PbbzHYpm8A6B6cd5E8tBNL4BK21H1bfmTbIVjSIzZNQUoZX6RTxMZXZIS7gFVSIxEHHbAZknWKvmZYbqSR1xkDKq/P9j2JotEcgIcYLajGzk906s65R0zF7S89HaSL+7p4bT0V/ACZwHpkdA8Qyh/mzVIsljjPIkeNLJZNhrb7O9Tnp0uv/a6S6HyK27eArnPNvfgHIRBm1J06Yrlwd0lree4wUjF+NYkdoPF4c1lqcZqvknq+BFqThizOlJGRTNkXVlfbXP+Wymq+4bZa6RlcL2cYC1za149FYllDkrRN4n3RhTo+CVdu8RMjLctv6AERL5jg7f+EcGqjm5+f4eCa4qG5Q2IVqMEewK84cJ+mYMFBXFjcR2H6VYtuLysn/MWcyCFnCVuYxC7MF9/tiN2aJbiQjVBTxIWwyK2CKAhmezyJzdoRsN79zFLUlqjy8Z69EYB9RMaP96Sj07aaJLi9+xInWhoLg4Itd0qTyEA55vT14nftnBw+lLHSiBMlZ/LfzxUI03SJ8jhuDKo12KZ6RVaK57E5HJgLt9wDsRdEiWh3bRAgSzyum+3CpUs3IYygywgfLsm3xC5G8Yw8ax41bx8VNcAUopQ8D1UbvK/moGKddIwIzpdS7oEhg2NIKbZWA4H49RBxR2XCXGPez8joSZ11lVhUz6XE4QdTrF3mv0bb5iItP79MFEHoz9BpTrOhNgVP8DIDPMEpJAFhtDEGRvY5nEHifvuwYuttvVI9YAcO6VO0jLHwesVpYqRswDiUyR0Y9S04n0mv6O6GMrg0Ajsekbin5VShZeBk3okvoOme/nNy+K7Ml3b5k3lpWm2bVXRDUn7F4yPrKDeMGkvM5Fj7SCJZsPQ9IhJAhcXrnWJkUHL9Vnc4ZgPs54BwH5+6wu8A/rnLczSlQDqQvY87lYWNyvK6FUMbbO39igmi5bGB4OaKAVY6pOb7K5HVBYn1uQyb0jb5DYkw86ab4NbLRy2BcLKY/OjUNDoJpwiK2YLGokFv9aPGmT5uYskbRvbTPOI/rTWEJ2yuCDmgyWWKO7rvCNmUUaVfwYBrlShF9TPYBna/RGrSlXaavMEQXuo5gXiVHltDAU+xsNIiWgd1wmlhJNtSxMcPS5W1uLe2Z6Ddor4ASmT5IRsbsN4iJiNkRPDY6u6SWhlVAZBRWbK6LcJ/iQTbh6YncXy0a8mAnnIb3y+jvAadSPAqgBb9HIG0xdy5YixZrq5F6qQBlWHTF2DO/tIVWFVO6qqrdwWxn9xQaQCQCBbrIImGU0bvPPA58mLBzxmAWJ4T+iJKce/s+DhW07yS1p3tGfeO7BV71uUgeu0ztUQB6+EZqxATurUIDNmFYUXIvZ669EatxAEBXdi+7Sh+IT761kI/LP1WQxE7+e7JGS9o91yxhbKon30GcQ7H+QXTJaY2S74jkkQ0bs+oUgSGxhNsQ/BzFRC6l+l2nUXEu0pAxmNqpR722I2EQq5hZH7tDYbyOL3qwNKMKCrguCEFS9/1+/gRyHJacg4KXTus2V/tzCCS8zQmteJo2W8paBDYuWknydG8gEwuuarU3HQ4Sl9IdhJYPqAEvfpI/90kASu/JXl6sqhvNCFZr7HhOuWphcbgvWjT6lglOzTK4c+O9+PDcuG1t5h0vEvu+YKnR54WcSZbi++KviJInhEZIRVlaRe1Sj/tJoCMFlIeiTlDC5OlCiYmpJv9CCGhrIsZ/48mjkrEfu7acwdyve5UpwwWRAm8Cou+DElqgrqqpGnTbRKZ79JfXyEFNOuiLstpKWre3o2rJd9rySWyUaeJOXWNiIqStzyuKtaBhc7hEHPcAN5qJUPjMZT8qtVfPf0uDu2RjFiybiQbtyGp15d5QVu/OdDd5tZjLn/+ekCDhMC1Ks9LWDgEV532orJ8rlYUMhcSP8tgMmuxs+IVa+Pb9zDB1zmu0VBB0G4cjdlc9OS9eeL3yoRBWWF/1if6mWdfTd0a2LFzNv1keKNyjaCG/Ao2sQJ4/cy4xbDQx5OInVfHHaitdhvmylt3DdlbYxB9SAnGeYRU9Xyi8cITAHYaf3N0t7+7ml2QW60Vyefz0Ai9jLIXlwTmV5xmp6+zVmc0PTxIDuLi5vN1Uue88dOEqmlRtI8S4gw9k63EYF+pXWFJaINgvBXJpo5NkzfWYrfGoyha76mSbJLhJI1YMiA+DXnltx4DbYPITK8CdVcMhqlYiVzmMpnWK5qBCj/ovDjRoe4O4HIQ1HYvocd8Ow0T2VjNhGBohpDQ1rlTz9jR/GxVW/H3YX0ONr56RfUcWlW5Sa2Zg7BVY/iKYtfBR1HXg5fC7iVfx3cZbZn/wX09o03zAcVa/9PIcqRWYdmHElYWoZP+ykWipJspLyHJqBzrHzFcz1ai6AXIJPAJreCTBuDt7Dcq9PARn0LJHFYxiJJZ6mbHHOgQkuEj/SndYAm9BtqeFFOfgA4naVx+IV5wmLxO4j+FUawqs4JSFu5bGiBwBtT0sgXQwplKmEUyDaLX5yBKURroxGDDzhwmNXyZOT1E6vsDNS/KW00mFvR/COrM7dO/4Xgjh2Pb/z1u4So2M+Y5WUb3Fs1S5J9lmXtvkAyZKD4ecPwI99LCGPO/AW8r85QcnPEJ8NiBsErsVvfPtS6VgJN/wFA8jEpijvtqDM+jRtzYYsG+M2eLFCfLGCF77B+skMkiU6LfjGxMx/haI1djkQ2/MtUfxTwnRCUhRg6VucGDfFtO6FXspRuHgUFI7tr65ZhBDlJ2XIn8rRRfA6G7TwDftxRV2Vgu0hsyJLJBZLA49Y+SMyp6qxdAZPQALiPLzrPCQujxfg/Z5PF98sx4zaQf07q2rockRrfKPM3cDA+8x9ydw3V5tJg6CnjqzDu33neXGKCMdygRa7mZ+8/WXPvA1cUcv5+7dMaRzrmPU6OfeS0O/ArXaEBNNo/FbVfJe5bIzJCfqPl1yWIrkyQ8I6w4c1wr5L4I7nFMod9DKJ+Aw1KrHsmlDE5EbUg5eZoYpdrhDgCYKvEfz2qEnzffOlOnDGdp3V6ntpLA4ABwArAgtegdHhQvoeOvYfDDmHamYfcpwY5zgMZX57ZVJgo+BVMeE/St/eTePU2NQIOtwLvyqqDQV2Gim1fReNGbIuN8AdnkUoLHeEAUiD7Z9b1WeBlnLCNEjcAmP4jg+H2Gpr2do1nsfnb+2eekuJRo/ml6MgE5rdcMljrzcx5bYNgyiP6CsJuS3N605KZFN7AdyuQ+vYf5CvuvBaXmNxl11nj5YgduxwFubautrGn+bsAJNDxwpCxDLZqXEloddTQT2wMkKf2NBXk/TUTT90KsKk14FtZ+5Mvl08Xq+PT1MMDGJikjDcdLWuSsP6bE84ocQZqs1zKvRsvApFQhudAb0iv9QYoiG+ibkXrZUXpNN3/zUMxfkzldc2Vvg4jsPbVziePNwQwvJtcipOwciMKeOa8+KXYtN0kg+xvuyvvnj414aR3Mv0XyBJbk0iOXRw22RflqILxKYTU9DtLNsurrsCu0kNqoBLkQ9DGmvYDGHFxAA00QUZ8rzev31o75UOIMP6KZ8dJR+80cxrnaH8U4V5J8CUx7FY+fbw7kzoM85beZD2cidgZRFWeQjNgyn7s3lI6Lz4AEjOSf6Oru+yjGGon4mhFF5+C0m8m3swVPl8IK/InTEIq5luYVMBTRxhcIGaE70dWujzQ7Bm9lzbAzA0fSnhGf0pviBYdQwWcCg/Uj4vjgNBFcbnHW8NJqzqHfYFSS7vrQl7D0So6F4/DYHW2V44VJUNHxX4AuNdMJgW3tRUDtoElIuu7QykSY+xUORgIXy2qq9o4Z2pNrbttV0F6MfJABOtWMfPo6LOOIae76el8SgXWTkjIE3eS1vlU0T7EgCpTw9x4gYIBmTVmteJkCduWZ1Iho4k7B++XjH0HYBUSxiZWFeuI89XoajCBb7jtnP0DMqum7gfXneWjW1NtWZcjSWcaPyQHNzdX7Fq8skwI669TTuRAeKczzN2ccCnsXDSFMHjGg2FJTjbZK81RZTiovsH3SX2xfgFXxFdZPy44AhPgM60mioJFXFwtRRC3dveGEYVYrOJdEt3lUw5dHVXsavBtoo4N8KV7WSIB3BcHeMWPA1znsqfxO3atmayWa1srm2FmKMHd8YuezeXPx4IujxJThs18lZWdT6kRJp8GzyZL0e0QF3onSyGFEB6TMNRIImRr7KHf5mX68RzkfseZRMJstRWVz+kVNEcNO5NQQMnLXZyZc+JEW9M4wIJXXKLXOM3Vcz43m5jWJf80tTvokqPE6zAODDI9v8csAodVPZ59OrW9C7E0fz0J7aO/aXrdiKIK4amj0Q1x2jwB3MjIRkD/hAU1/xJCv8XiUvWGpodUpAaN10dVfkiUSKImMRZjCidAREb8u2jBuw0cCOV3HRCWNjEeA4jktBnoFZPaZySDQodd59Jh1FkjeWoH9FT1tZhPwUxNsCRdgzgY0AQQQ7PlfSir67AYQatvfTJBXra78d4XdFkbEkosM9FSyryKukegCX91rNx/ba8pWOgIq3xhHJqjvqpb649yHFuD23SxWEo5TSiJD7s8v1I+zVpKhOB20HfT/VbJYQBbJxt1tvbS0r5UXTcmkLb1PlVikz/WZTdeMsfj82p0GYvfmh2VklwoVcJrYS5VqA0qERyz4hw7thwoxDsHlTnHTyBg/dO3ogJXA0NPOGH5WiMkwCE+Gzh1PQNhWEQB8zs+XaVbdGRm5sn6LpZgfGmp9Yt9yKSB0YVs/DwPTTHJFetBFfX4Kbnx6O4YM48aLMOxstKyzdJ5s0iud0Enp9UUH6Aa/fVil0W3LCO3kiiVSiK3C+V/gP+uFVW9yucCGxXkvgo6hDdXENdG9rFbU1SB8BO3tw6Bjsre1meAcI5jXd+kOY4CDALeluUlp7DcFamJl5ivlXWFFb67MnFPmvXg3yVctAs+OQyK0xx7iLcP/V/Cb5PIs/FvW/CTqEwvZrngskx5VDP/PoLcZXnOa3urtBfwixTo0q1btRynfvWDPg8gRj6LfmrGe9Cq+J7kNpZpi0etuZCg9RyuIWwsKC2n3utCYbhP6U9HMIQZYhc07z4I3NenByeeWI1nTPRCJHztGv2Xdjbcs08nq5x1iYV78WmUoJh95Fz3Kfyt8Jsv+DksfaXp1wNXIGL+x1Ds62Z4uo0AoJk4GMoo2vB5a0yTOMnsf48c3ngW1eTXf6EXI+k7XEHVF+V+op3K9gvMKu9Ltx/LzzxpNTlIdR3vZm4r7s7i9ELemJWOXQi0IPM2C4rr3ZZqfChrUr+tBHlgilXLeyW22jkN3yQ1x2dRjn6dh0D6WvXMnL48RvR5d6uMzClaIt/OO09eHAe/8KVC2vWFyklmk+gpQF8j+IVlDFFsbLSWWwbmjrollgZ8t6iOpnwGyA4iVXOsMvEexM1qe2B9M5km7KwNOfybteuAJKPy25oA9zt22m4zXlP1zrzvbahQRhf8+T5n0Prg0zvU2lRW9a1ULcDI4lhxzKjxVcb3MeBJULXVrgXdsEMOJh8lW6gfMqAIUN4JXAbdKbKr4sz86yL9ORErbgW+ryNcS8tVs6sTK0b6jJ67+p0HcQHLx/7aVE50LLbZ3t/Q1kigHqHTI8AVC8GF+df5u55Tz3lbIPNerP1vLPacRrgjBC0avcHqopdeNv2HcYBUlOXOndcHZhrnQiXDsOCMVGfHg15oVhWmO6E0tUeilASXoAm4a+lSNzbqa1FvSKZVfsQCzPUmO6gsgQmtx5xqE2bhejW1MvXU20UdIEHwMfIUiL3EA+uxQcejLM7iu2iwsH+6UoR+7LxjjTU3hET/KCwad10kUUQim4+xUnaKyOFBgesFHCEcGKssC/ZO7HJw/VU6yCvNwMxsc3WSdJelAQYUV+Qfa0ox98ZWX85K0RIxmKUnkjeWG9w2Aelj8WByNqpRsKVLrX66iT8Z5EXOl5ukhzAxqBXqqOR2rzJzI2riJyT84BaFJCEb4EN6TqqTbVfKPA4G53S0q4YBjznVVF2NRf9rYl4/9MhtYgNr4Orol/9Heet0z/CB86FpxlSEsSQWxTl9Vyt42XfmwTMYHEATh+T/5/49VCrdWnRum35qTUSAeEVY2ZFQj4gM34ilQNZGn0y2UvQIpsYLvMJSfjHLaHnnEaIcjkubnZCXqcVOox5DLNhv5ANHQ9j6mcTHkPzI/mbSCWOlSZc8UY9CQkdCZX5EjuqPYlafKzjKubq4o+SnBwEIoncAMfsYgXR2a7rSsR/2qp0Km6p3X6EX4A31VGwSofonJ0kHTVzBAxDuMguSUuY87O4dn1mjC92ADf9U8Eof9alIfKgv6B23Z+VFKuRqExtxoTj0JoNyHtsoFFJ4eYjBfSEIvvW8Rf9HtFS4LS3Fc2aoZTLfrW/1vcAVCyZIskoqGp2C90DOaiNFlrwcjVyVqQ0wAUYrCu1w1tXPcbeNNev79BCE9fx82SLrrbG/4K8JmskvbUxrNn1SkqClrbhoMzSM1w87b7t9EBWaxFjh85T/ohNdZ0LftMFFkc1xSpe7X/YtXvkUp7Q6AJsw8stwcSwFZ0wjtM5jdyMRdGRQHZlmEpYjxCU94rT4DTnED0ZCmY4wLdlAdejWs76VcfZJDoDibkDSM9HDqQ1pL7riMSzVatiGnrV0M3BGiSCOgtyWUrEhz/4+XEcQYKr7uA9hWlWGjVKR1uFB5fwLFVs67egHJpEc3DHLLdX10fpMBypfhuBjy2pxGH5CaSsdORTcA/akcxg8/Hepc+wYdqejhRMa4viZs5jJ2vFkSeJ3iiDTEP3t2Wa7HcQAPIHIp7GesdFTUB2Wyhsg+Cf03zsR4b4ze7HODBZsWMHQdA8qGQywniZi/yDm76cs2T1dVcUlADi7nToY/VOlTLEVTh7xswLwD1dSr7SpLeA/KE4n/vpqg0/a0+yDG191O2ijZOq3+rKuZx7IfrCClIppWen4CCYICYIwbMtiBTua3/1uR7v3k7XBrFaTin3w5lqK/OqOPfsdolcKIevDcVM9sRZ26znGIgqQEZAvD3ZX/LtP8s33ju2b5uCtnmdhD9RuvtlaqmXXXZ4OQlcs1SA4w3LpU4s17yoP1t9d2um1BBfNSmDT6xoT2Evl5rhvah8BJEQM/PeZ8kn3UKkVgtd+XTQ5x3KEonV1ZIhggdrMZHfiPSiaL4AaOQLw3Ugwy+CR/EhsSn8+vtFwc/rqU+yhRcPU5PjeKHHFWpqYkGnLQQIZ3uvAsMTyTV2wFphDkqjP02Czq7Ck0NMcevC+VHwHzlOF/1qLoHU2pbtmI8Y9JbeNWB5ONcqH4T6QFalPMCSyCvVV0Iq7rycP+/aXI//Z7QnMOlsfvKOwmDKvay/xHvNj7YmwtOUWaJcb3Fa7CviZPjPirlHWRj8QRYXOeh9RHCrbVFN5jaBORmgC6lv7jQxNITepdSvFZkD2wH3fLgEThDDGFfJoUR4IbdymFfBSPjVKk+h4CXOFztR6RpWrlJ1lBabieHWdQNv1ISTqB3eA1m3aFdONRpu//X953aui2L1aQ1Rzc9SK8KWWW6GRcLOEHFgBzPZ0DMnwxg8hkq4qFEo5kjNmC51XNDWMuZE4JWwNldASJ/RYxQes95HxYLyQE6Pe3JGGUSzTmPbztR6Vpy7YL46qGuHEMnZMdHkZmAsb/P79lITImtCmHZBOv/8JCirkTCIdludFQJF8IBa5TeFZE5/2xRKnht3rVFtTATkuY9xgnM4cAynH8A+P4ElJsxHNEm2YrqFtxFQVoJbM/MbrDYAdSTNQt6wU4uzmDLYprWuMseSL83243pt8lBAjfeSP5ecV1D2sLY43hFLXPofRSPNlEvH017rWW+YUHy0QZUR+5OHDiSy4GsMiWZMc4zPOSWIkab/0z4Qu/g+84iAZO7AM4WtQl4FoMeYzQqkKr1DC26RzrDaKmNWj1eaWKdzM4gUYsIxMRaQN1zX/Xcw0S+j1IDNg9i6jYpHhcFCbYhZgxqulwM9JbG2ar/h/NPrPg3aAnh+2DWpYC23u6uGLZlc/4lZWDDPHEH3CgiJQ9oJfPggDm1GCmVF5WOBDblxg0otUzbKWtC97OEXzi3SGaIjpckQkSZRhtiNiy8YYG46JNVTZPprYtnNDcvYWJ0U8s/y+mCu7ZGjLYAPTiYTSxNwoUeIaCf5iCoz8baMvLC/BqIT/ZUEyqibrz7wCKRsNuzLw32IgDamZlG2Nw9gX+V1bwxifkmUTwVjXB+D5Tp+XxzkrIon28vzrnAM+LPOLBe8LdbneB1YbJOhh+G1UUAg/uHQLN6BuvBT5Hlg3apwoYSeWpil4Rb/UEwwxwdac5EcynIoitnw1A8OpVXc+OQRxGs2+zre0CuhOafH2nhl5G3H3BPPx2cy4pEDml7GMCnQRYc8O0fmWz+zeCxeyk/8UTnAZU7/4/QNUL3Gs3d0s4MRLeqJxjwfP6AWKK8uqGGWJVCfEv3ZRXSQf0Q6RqM4Px/FOM2oO1WGCMXcLZ+oMmYvoJx9X7QhuwspL4evDj+VfNABLQOP4TTxnHGXe9rTYg4Kd5WCEmeZlQOP/Gfh2LNbTMUM6CNEN/db/cyosdKbrChaS2ngFffzytlWEE7FkzoiTcLEvK4wvNDk8Av54mihJpCkNqy+rxJOzPpQUCih0fWdtN+ak31IkVMxGuz7JwXtUtTC3g2Ypa9kkSjEOyLscZ6FQs65AgmbbOyeYdhn+Yip1PTWhZt0eazIsnihIpivJ4s9E+/5m5pvJowjGy4FOrTaA9ugw3fNH8uq72AiVGy7ZGn7xb64K8zC4d9mAlPDeIqraUzQlrIqyYPMghdTpNwfJt4YlY75CblRXQLWpmoXRPFnN0+gBkkQ3AjlJWDBjvZpEJszYxFNWzYfnlckQu+DYkoYGp8tQ02mSx/SRYa799v4W8lJwcQaLto+lWUNkUQLf4mFH2tOmfIR2fim/GfmBxZOfL2fpCO7MwXrQZru7u2I9skftQcxLnTu1enQG58kOwE0ILcPSeqYyiRn8EJKgUKHN/uGN3N0oj3CMhOry1XZV7sKooTTnNhiX9mINQu9rB9F4kuRbiowwPTjTR68MVC2lwmwqbwcoC9r9m41KXjHFoI/S41zhUoNX337l0x/zHwczdwWclkCco/q4Sfkq7uuov2M8DT+sqtVY5kIcgtQE1/5brGsHJPjWu42KRB3WmgoXZ6BN+dLrlguCswR8m0FgEcP4aIl//ftHcQUzOIH3/ulLf9s/KU7Hcv//hWrp14DmfpG7j3FisHGBJim9s97Qg3kYadKrUuS862VDG3Nel8DIyT6i5SxEpWLOrylqQE4CAJkriIN8J65SrC7STuOk3QheS7p54Cgg7OiIM8DGDQsoMEq7e916vMdfL6n6zPXqfZF7Y5QYxoU1j0rRB+IZlE0c6EiYWWA7INFAGvcPAEzkWeORNDdmStLB/fusslwHZl9xeHcxRrWliRqCdowlL9x4dXHsvfo01Gvn+DKySpxTxCLgyJdN0VztoUBw2eviS5V5V4FrmDUi7t40crv/ad49/nLMpxNqxrodgXNSfui2ZGAlHSS0X4mvuXFQ1hVL4xvVwNymbGkmqWOplRRZPFSmQe54J1A16rNWViMLJO6qQea+49dbhr7DveUnVO87a2w4/a+PaqRL53fvOUfFYzcAwL187M99NivIbaj/ZNOPLoRs0KiRFa6tWuzRF6X9pTZBQ2WH0xV1P2uwM692aZqzSv00l3q/oAHXRn+LfvLbH2wdyvInqPg3czUNO/oWjbJRtjezCzGoEay/L6rTW0TRwJyH6n3EWiR1qfEYUsqHIl6cDxZuzUPrXiIHvVBwjS04xXIVBukOjQJfxMWAJ+gtXMPB97vaT8NBNHDpJbDkRiwXzglsGrEzMJBiNUhkdb3vXs03/FadsHgCckk6SoMkcxAmshsy9gi9gemMD2M91MovsrTFtt8RE9U1uLFbYIb3E2RIagN2cpgPKyzcN+L0N09GiumOkz76+7vOgvhhrMg9apmRaIsKd+Xm0X0V0lv0oqHC3m5MpwgFOv8scBtIApULDtg7usdOFQn52+D266wBd+1e3/210Ll10WODAYfsQzThfR2mNzTTimAZYxS7sQnbRsAbBeRZU+jQfD7vUV3BQFTTLPsZ77KCO/7pCNFCkOFRsudg74u337nva0TEy6Q2eNQFwJNMne/SANINyfpZOMNdxAngLI46IFIwQHxFHWYkBvHhC7xAX7N2nnQUxkqtt0TqEgZxPGRfyX5siA3AGYpV2fZfXYCYOlpqDwjF30sb/Bk7K4eVi7xxRHPNG0ZyPrLMHIWsYIOTmP6rCls14OQOx/i3fDzmIMK4ZQKfbg8+FYrIS1XBUf0M5P73nSEAp2ZejgmDTqnrZl//dCixhzTsoXkqbEBOH+3YzgEBsAuTHuLZ3xdFo/xARXpll4AvLgAWGA1tg3l++FL8QACa8QXpYi4AAAAAA==" alt="Dessert" class="menu-img img-fluid rounded-3">
+                <div class="menu-content">
+                  <h5>Filé à Parmegiana<span class="menu-tag">Clássico</span></h5>
+                  <p>Clássico e irresistível. Filé mignon empanado e frito até ficar crocante, coberto com molho de tomate caseiro e queijo gratinado ao ponto perfeito. Servido com arroz branco soltinho e batatas fritas douradas. Um prato tradicional, saboroso e completo — perfeito para quem busca conforto e sabor em cada garfada.</p>
+                  <div class="preço">$59,90</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 isotope-item filter-drinks">
+              <div class="d-flex menu-item align-items-center gap-4">
+                <img src="data:image/webp;base64,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" alt="Drink" class="menu-img img-fluid rounded-3">
+                <div class="menu-content">
+                  <h5>Suco de Abacaxi com Hortelã<span class="menu-tag">Sucos Naturais</span></h5>
+                  <p>Refrescante e aromático, preparado com abacaxi fresco batido e folhas de hortelã que trazem leveza e perfume ao sabor. Uma bebida natural, vibrante e perfeita para acompanhar qualquer refeição.</p>
+                  <div class="preço">$14,90</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 isotope-item filter-drinks">
+              <div class="d-flex menu-item align-items-center gap-4">
+                <img src="https://th.bing.com/th/id/OIP.RjJ6SKUHS-SWkltU5kANxAHaE7?w=238&h=180&c=7&r=0&o=7&cb=ucfimg2&pid=1.7&rm=3&ucfimg=1" alt="Drink" class="menu-img img-fluid rounded-3">
+                <div class="menu-content">
+                  <h5>Sátimo Sunset<span class="menu-tag">Sem Álcool</span></h5>
+                  <p>Coquetel especial sem álcool, inspirado nas cores do pôr do sol. Preparado com uma combinação harmoniosa de laranja fresca, toque de maracujá e um leve brilho de frutas vermelhas, criando camadas de sabor suaves, refrescantes e naturalmente doces. Finalizado com gelo e uma fatia de laranja. Um drink autoral vibrante, leve e perfeito para qualquer momento.</p>
+                  <div class="preço">$19,90</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="text-center mt-5" data-aos="fade-up">
+          <a href="#" class="download-menu">
+            <i class="bi bi-file-earmark-pdf"></i> Saiba mais sobre nosso menu (PDF)
+          </a>
+        </div>
+
+        <!-- Chef's Specials -->
+        <div class="col-12 mt-5" data-aos="fade-up">
+          <div class="specials-badge">
+            <span><i class="bi bi-award"></i> Chefs Especiais</span>
+          </div>
+          <div class="specials-container">
+            <div class="row g-4">
+              <div class="col-md-6">
+                <div class="menu-item special-item">
+                  <div class="menu-item-img">
+                    <img src="assets/img/restaurant/main-3.webp" alt="Special Dish" class="img-fluid">
+                    <div class="menu-item-badges">
+                      <span class="badge-special">Especial</span>
+                      <span class="badge-vegan">Vegano</span>
+                    </div>
+                  </div>
+                  <div class="menu-item-content">
+                    <h4>Salmão Grelhado Mediterrâneo</h4>
+                    <p>Filé de salmão fresco grelhado no ponto perfeito, temperado com ervas aromáticas típicas do Mediterrâneo. Servido com legumes salteados no azeite extravirgem, tomate confit e toque de limão-siciliano. Um prato leve, saudável e extremamente saboroso, que combina frescor, aromas marcantes e elegância em cada garfada.</p>
+                    <div class="menu-item-price">$75,00</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="menu-item special-item">
+                  <div class="menu-item-img">
+                    <img src="assets/img/restaurant/main-7.webp" alt="Special Dish" class="img-fluid">
+                    <div class="menu-item-badges">
+                      <span class="badge-special">Especial</span>
+                      <span class="badge-spicy">Picante</span>
+                    </div>
+                  </div>
+                  <div class="menu-item-content">
+                    <h4>Bife de Costela Assinatura</h4>
+                    <p>Bife de costela suculento, temperado com especiarias selecionadas e grelhado à perfeição. Acompanhado de molho especial picante, batatas rústicas crocantes e legumes grelhados. Um prato robusto e cheio de sabor, ideal para os amantes de carne que apreciam um toque de ardência.</p>
+                    <div class="menu-item-price">R$65,00</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Menu Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Depoimentos</h2>
+        <p>Nossos clientes satisfeitos compartilham suas experiências.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 1
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  No Sátimo, buscamos unir técnica, criatividade e ingredientes frescos para criar experiências gastronômicas memoráveis. Cada detalhe — do preparo ao atendimento — é pensado para oferecer aos nossos clientes momentos únicos, cheios de sabor, conforto e autenticidade.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="https://suap.ifro.edu.br/media/alunos/130764.mvdKUvjEKO2F.jpg" class="testimonial-img" alt="">
+                  <h3>Larissa Sátimo</h3>
+                  <h4>CEO &amp; Fundadora</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  No Sátimo, acreditamos que cada detalhe faz diferença. Trabalhamos com dedicação e sensibilidade para transformar ingredientes simples em experiências marcantes. Valorizamos o cuidado, o sabor e a conexão que a gastronomia proporciona, criando um ambiente onde cada cliente se sente acolhido e cada prato conta uma história.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="https://suap.ifro.edu.br/media/alunos/125622.6RqEaU9GCLGO.jpg" class="testimonial-img" alt="">
+                  <h3>Anna Clara</h3>
+                  <h4>Designer</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  No Sátimo, cada gesto na cozinha é guiado por cuidado e propósito. Acreditamos que a verdadeira gastronomia nasce da união entre técnica, dedicação e sensibilidade. Trabalhamos com ingredientes frescos e selecionados para criar pratos que entregam mais do que sabor — entregam sensação, conforto e momentos que ficam na memória.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="https://suap.ifro.edu.br/media/alunos/127956.6PRAhqegKayv.jpg" class="testimonial-img" alt="">
+                  <h3>Pietra Mellina</h3>
+                  <h4>Proprietária</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  No Sátimo, buscamos transformar momentos simples em experiências marcantes. Cada prato é preparado com atenção, técnica e respeito aos ingredientes, criando sabores equilibrados e memoráveis. Acreditamos que a gastronomia deve trazer leveza, conforto e prazer — e é isso que guiamos em cada detalhe do nosso trabalho.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="https://suap.ifro.edu.br/media/alunos/128152.1Z8G-G2kmnMF.jpg" class="testimonial-img" alt="">
+                  <h3>Henrique Torriane</h3>
+                  <h4>Tradutor</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  No Sátimo, acreditamos que cada detalhe contribui para uma experiência única. Do cuidado no preparo dos pratos à atenção dedicada a cada cliente, trabalhamos para criar momentos especiais que combinam sabor, aconchego e qualidade. Nossa filosofia é simples: servir bem, com autenticidade e paixão pela gastronomia.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="https://suap.ifro.edu.br/media/alunos/128123.gx8qCbAQLNOo.jpg" class="testimonial-img" alt="">
+                  <h3>Clara Mendonça</h3>
+                  <h4>Empreendedora</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Chefs Section -->
+    <section id="chefs" class="chefs section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Chefs</h2>
+        <p>Temos uma equipe dedicada de chefs talentosos que trazem paixão e criatividade para cada prato.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="chef-highlight" data-aos="fade-right" data-aos-delay="200">
+              <figure class="chef-image">
+                <img src="https://suap.ifro.edu.br/media/alunos/130764.mvdKUvjEKO2F.jpg" class="img-fluid" alt="Executive Chef">
+              </figure>
+              <div class="chef-details">
+                <h3>Chef Executiva</h3>
+                <h2>Larissa Sátimo</h2>
+                <div class="chef-awards">
+                  <span><i class="bi bi-star-fill"></i> Chef do Ano – Prêmio Gourmet Brasil</span>
+                  <span><i class="bi bi-star-fill"></i> Chef Especialista em Alta Gastronomia</span>
+                </div>
+                <p>No Sátimo, nossa chef executiva Larissa Sátimo combina técnica apurada e criatividade para criar pratos que encantam os sentidos. Com uma trajetória premiada e uma paixão pela gastronomia, ela lidera nossa cozinha com dedicação e inovação.</p>
+                <div class="chef-signature">
+                  <img src="" alt="Chef Signature">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="team-container" data-aos="fade-left" data-aos-delay="300">
+              <div class="row g-4">
+                <div class="col-md-6">
+                  <div class="chef-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="chef-img">
+                      <img src="https://suap.ifro.edu.br/media/alunos/126993.c7f6s2x4SSwV.jpg" class="img-fluid" alt="Chef Portrait">
+                      <div class="social-links">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                      </div>
+                    </div>
+                    <div class="chef-info">
+                      <h4>Beatriz Borgheti</h4>
+                      <p class="role">Chef da Confeitaria</p>
+                      <p class="details">A Chef Beatriz Borgheti é responsável pelas sobremesas autorais do Sátimo. Com técnica refinada, criatividade e olhar artístico, ela transforma ingredientes simples em doces sofisticados e memoráveis. Suas criações equilibram sabor, textura e elegância, tornando cada sobremesa uma experiência especial.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="chef-card" data-aos="zoom-in" data-aos-delay="250">
+                    <div class="chef-img">
+                      <img src="https://suap.ifro.edu.br/media/alunos/126345.WtJpUnMO6fQ6.jpg" class="img-fluid" alt="Chef Portrait">
+                      <div class="social-links">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                      </div>
+                    </div>
+                    <div class="chef-info">
+                      <h4>Leticia Keveny</h4>
+                      <p class="role">Sous Chef</p>
+                      <p class="details">A Sous Chef Leticia Keveny é o braço direito da cozinha do Sátimo. Com técnica sólida, organização impecável e paixão por cada detalhe, ela garante que todos os pratos sejam preparados com precisão e excelência. Sua experiência e dedicação fortalecem o ritmo da cozinha, apoiando o chef executivo e orientando a equipe com segurança e profissionalismo.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="chef-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="chef-img">
+                      <img src="https://suap.ifro.edu.br/media/alunos/130757.cjkYJCHnz2Ov.jpg" class="img-fluid" alt="Chef Portrait">
+                      <div class="social-links">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                      </div>
+                    </div>
+                    <div class="chef-info">
+                      <h4>João Felipe </h4>
+                      <p class="role">Chefe de Bebidas Naturais</p>
+                      <p class="details">João Felipe é o responsável pelas bebidas artesanais do Sátimo. Com criatividade e domínio de ingredientes frescos, ele desenvolve sucos especiais, infusões e mocktails que combinam frescor, equilíbrio e sabor. Suas criações valorizam técnicas naturais e tornam cada bebida uma experiência única.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="chef-card" data-aos="zoom-in" data-aos-delay="350">
+                    <div class="chef-img">
+                      <img src="https://suap.ifro.edu.br/media/alunos/127771.3KJtLwOeu7JI.jpg" class="img-fluid" alt="Chef Portrait">
+                      <div class="social-links">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                      </div>
+                    </div>
+                    <div class="chef-info">
+                      <h4>Josiane Grazielle</h4>
+                      <p class="role">Mestre da Grelha</p>
+                      <p class="details">Josiane Grazielle é a mestre da grelha do Sátimo. Com habilidade excepcional e paixão pelo sabor defumado, ela domina a arte de grelhar carnes, legumes e frutos do mar, garantindo texturas perfeitas e sabores intensos. Sua expertise transforma cada prato em uma experiência memorável para os amantes da culinária grelhada.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Chefs Section -->
+
+    <!-- Book A Table Section -->
+    <section id="book-a-table" class="book-a-table section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-5 mb-5">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+            <div class="reservation-info">
+              <div class="text-content">
+                <h3>Reserve Sua Mesa</h3>
+                <p>Faça sua reserva preenchendo o formulário ao lado ou entrando em contato conosco. Estamos ansiosos para recebê-lo e proporcionar uma experiência gastronômica inesquecível.</p>
+
+                <div class="reservation-details mt-4">
+                  <div class="detail-item">
+                    <i class="bi bi-clock"></i>
+                    <div>
+                      <h5>Horário de Funcionamento</h5>
+                      <p>Segunda - Sexta: 11:00 AM - 11:00 PM<br>
+                        Sábado - Domingo: 10:00 AM - 12:00 AM</p>
+                    </div>
+                  </div>
+
+                  <div class="detail-item">
+                    <i class="bi bi-geo-alt"></i>
+                    <div>
+                      <h5>Localização</h5>
+                      <p>Avenida Hugo Frey, 285 
+                        Centro Gourmet, Cidade Ariquemes
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="detail-item">
+                    <i class="bi bi-telephone"></i>
+                    <div>
+                      <h5>Telefone</h5>
+                      <p>+55 (69) 69925-52656</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+            <div class="reservation-image">
+              <img src="assets/img/restaurant/showcase-7.webp" alt="Restaurant interior" class="img-fluid rounded">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12" data-aos="fade-up" data-aos-delay="400">
+            <div class="reservation-form-wrapper">
+              <div class="form-header">
+                <h3>Reserve Sua Mesa</h3>
+                <p>Por favor, preencha o formulário abaixo para fazer uma reserva</p>
+              </div>
+
+              <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form mt-4">
+                <div class="row gy-4">
+                  <div class="col-lg-4 form-group">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  </div>
+                  <div class="col-lg-4 form-group">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                  </div>
+                  <div class="col-lg-4 form-group">
+                    <input type="text" class="form-control" name="phone" placeholder="Your Phone" required="">
+                  </div>
+                  <div class="col-lg-4 form-group">
+                    <select name="people" class="form-select" required="">
+                      <option value="">Número de convidados</option>
+                      <option value="1">1 Pessoa</option>
+                      <option value="2">2 Pessoas</option>
+                      <option value="3">3 Pessoas</option>
+                      <option value="4">4 Pessoas</option>
+                      <option value="5">5 Pessoas</option>
+                      <option value="6">6+ Pessoas</option>
+                    </select>
+                  </div>
+                  <div class="col-lg-4 form-group">
+                    <input type="date" name="date" class="form-control" placeholder="Date" required="">
+                  </div>
+                  <div class="col-lg-4 form-group">
+                    <input type="time" class="form-control" name="time" id="time" placeholder="Time" required="">
+                  </div>
+
+                  <div class="form-group mt-4">
+                    <textarea class="form-control" name="message" rows="3" placeholder="Special Requests (Optional)"></textarea>
+                  </div>
+                </div>
+
+                <div class="my-3">
+                  <div class="loading">Carregando</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Sua solicitação de reserva foi enviada. Entraremos em contato por telefone ou e-mail para confirmar sua reserva. Obrigado!</div>
+                </div>
+
+                <div class="text-center mt-4">
+                  <button type="submit" class="btn-book-table">Reserve Agora</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Book A Table Section -->
+
+    <!-- Location Section -->
+    <section id="location" class="location section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Localização</h2>
+        <p>Localizado na Avenida Hugo Frey, o Sátimo está em uma das regiões mais encantadoras da cidade, cercado por cultura, movimento e charme urbano. Um espaço acolhedor e de fácil acesso, perfeito para quem busca uma experiência gastronômica completa.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+            <div class="map-container">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.684949335945!2d-73.98658242357565!3d40.75853057126168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ1JzMwLjciTiA3M8KwNTknMDcuNyJX!5e0!3m2!1sen!2sus!4v1654321234567!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+            <div class="info-container">
+              <div class="section-header">
+                <h2>Encontre-nos</h2>
+                <p>Visite-nos hoje</p>
+              </div>
+
+              <div class="info-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="info-icon">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+                <div class="info-content">
+                  <h3>Nossa Localização</h3>
+                  <p>Avenida Hugo Frey, Ariquemes, RO 01234-567</p>
+                </div>
+              </div>
+              <div class="info-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="info-icon">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div class="info-content">
+                  <h3>Reservas</h3>
+                  <p>+55 (69) 699255-2656</p>
+                  <p class="small-text">Recomendamos fazer reservas com pelo menos 48 horas de antecedência</p>
+                </div>
+              </div>
+
+              <div class="info-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="info-icon">
+                  <i class="bi bi-clock"></i>
+                </div>
+                <div class="info-content">
+                  <h3>Horário</h3>
+                  <div class="hours-grid">
+                    <div class="day">Segunda - Quinta</div>
+                    <div class="time">11:00 - 22:00</div>
+
+                    <div class="day">Sexta - Sábado</div>
+                    <div class="time">11:00 - 23:30</div>
+
+                    <div class="day">Domingo</div>
+                    <div class="time">10:00 - 21:00</div>
+                    <div class="day">Horário do Brunch</div>
+                    <div class="time">Sáb &amp; Dom, 10:00 - 14:00</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cta-wrapper" data-aos="fade-up" data-aos-delay="600">
+                <a href="#" class="btn-book">Faça uma Reserva</a>
+                <a href="#" class="btn-contact">Contate-Nos</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Location Section -->
+
+    <!-- Events Section -->
+    <section id="events" class="events section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="intro-text text-center mb-5" data-aos="fade-up" data-aos-delay="150">
+          <h2>Crie Momentos Inesquecíveis</h2>
+          <p>Planeje seu evento conosco e transforme suas ocasiões especiais em memórias duradouras.</p>
+        </div>
+
+        <div class="event-types">
+          <div class="row">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="event-type-card">
+                <div class="icon-wrapper">
+                  <i class="bi bi-calendar-heart"></i>
+                </div>
+                <h3>Casamentos &amp; Celebrações</h3>
+                <p>Celebre seus momentos especiais conosco em um ambiente encantador e acolhedor.</p>
+                <span class="capacity">Até 150 convidados</span>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
+              <div class="event-type-card">
+                <div class="icon-wrapper">
+                  <i class="bi bi-building"></i>
+                </div>
+                <h3>Eventos Corporativos</h3>
+                <p>Organize reuniões, conferências e eventos empresariais em nosso espaço profissional e versátil.</p>
+                <span class="capacity">Até 100 convidados</span>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="event-type-card">
+                <div class="icon-wrapper">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h3>Reuniões Privadas</h3>
+                <p>Organize encontros íntimos e reuniões em um ambiente confortável e reservado.</p>
+                <span class="capacity">Até 50 convidados</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-showcase" data-aos="fade-up" data-aos-delay="150">
+          <div class="row g-3">
+            <div class="col-lg-8">
+              <div class="main-image" data-aos="zoom-in" data-aos-delay="200">
+                <img src="assets/img/restaurant/event-1.webp" alt="Espaço para Eventos" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="row g-3">
+                <div class="col-lg-12 col-md-6">
+                  <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
+                    <img src="assets/img/restaurant/event-5.webp" alt="Evento" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-lg-12 col-md-6">
+                  <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="assets/img/restaurant/event-7.webp" alt="Evento" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="event-cta" data-aos="fade-up" data-aos-delay="200">
+          <div class="row align-items-center">
+            <div class="col-lg-8">
+              <h3>Pronto para planejar seu evento especial?</h3>
+              <p>Estamos aqui para ajudar você a criar momentos inesquecíveis. Entre em contato conosco hoje mesmo para discutir suas necessidades.</p>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+              <a href="#" class="btn-reserve">Reserve o Espaço</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="featured-events" data-aos="fade-up" data-aos-delay="200">
+          <h3>Próximos Eventos em Destaque</h3>
+
+          <div class="row g-4">
+            <div class="col-lg-6 col-md-6">
+              <div class="featured-event-card" data-aos="fade-up" data-aos-delay="250">
+                <div class="event-date">
+                  <span class="month">Junho</span>
+                  <span class="day">18</span>
+                </div>
+                <div class="event-content">
+                  <div class="event-image">
+                    <img src="assets/img/restaurant/event-3.webp" alt="Festival de Vinho de Verão" class="img-fluid">
+                  </div>
+                  <div class="event-info">
+                    <h4>Festival de Vinho de Verão</h4>
+                    <ul class="event-meta">
+                      <li><i class="bi bi-clock"></i> 6:00 PM - 10:00 PM</li>
+                      <li><i class="bi bi-geo-alt"></i> Terraço do Jardim</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed justo magna dolor sit amet.</p>
+                    <a href="#" class="btn-details">Ver Detalhes</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6">
+              <div class="featured-event-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="event-date">
+                  <span class="month">Julho</span>
+                  <span class="day">05</span>
+                </div>
+                <div class="event-content">
+                  <div class="event-image">
+                    <img src="assets/img/restaurant/event-8.webp" alt="Noite de Degustação Gourmet" class="img-fluid">
+                  </div>
+                  <div class="event-info">
+                    <h4>Noite de Degustação Gourmet</h4>
+                    <ul class="event-meta">
+                      <li><i class="bi bi-clock"></i> 7:30 PM - 11:00 PM</li>
+                      <li><i class="bi bi-geo-alt"></i> Salão Principal de Jantar</li>
+                    </ul>
+                    <p>A sala de jantar principal do Sátimo foi cuidadosamente projetada para oferecer conforto e elegância em cada detalhe. Com iluminação acolhedora, decoração refinada e atmosfera tranquila, é o espaço perfeito para desfrutar de uma experiência gastronômica completa e memorável.</p>
+                    <a href="#" class="btn-details">Ver Detalhes</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Events Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para reservas, perguntas ou feedback. Estamos aqui para ajudar!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <!-- Contact Info Boxes -->
+        <div class="row gy-4 mb-5">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="contact-info-box">
+              <div class="icon-box">
+                <i class="bi bi-geo-alt"></i>
+              </div>
+              <div class="info-content">
+                <h4>Endereço</h4>
+                <p>Avenida das Palmeiras, 1842, São Paulo, Brasil</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="contact-info-box">
+              <div class="icon-box">
+                <i class="bi bi-envelope"></i>
+              </div>
+              <div class="info-content">
+                <h4>Endereço de Email</h4>
+                <p>satimobatistalarissa3@gmail.com</p>
+                <p>contato@satimo.com</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="contact-info-box">
+              <div class="icon-box">
+                <i class="bi bi-headset"></i>
+              </div>
+              <div class="info-content">
+                <h4>Horário de Funcionamento</h4>
+                <p>Domingo-Sexta: 9 AM - 6 PM</p>
+                <p>Sábado: 9 AM - 4 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Google Maps (Full Width) -->
+      <div class="map-section" data-aos="fade-up" data-aos-delay="200">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <!-- Contact Form Section (Overlapping) -->
+      <div class="container form-container-overlap">
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-10">
+            <div class="contact-form-wrapper">
+              <h2 class="text-center mb-4">Fale Conosco</h2>
+
+              <form action="forms/contact.php" method="post" class="php-email-form">
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <div class="input-with-icon">
+                        <i class="bi bi-person"></i>
+                        <input type="text" class="form-control" name="name" placeholder="First Name" required="">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <div class="input-with-icon">
+                        <i class="bi bi-envelope"></i>
+                        <input type="email" class="form-control" name="email" placeholder="Endereço de Email" required="">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <div class="input-with-icon">
+                        <i class="bi bi-text-left"></i>
+                        <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <div class="form-group">
+                      <div class="input-with-icon">
+                        <i class="bi bi-chat-dots message-icon"></i>
+                        <textarea class="form-control" name="message" placeholder="Write Message..." style="height: 180px" required=""></textarea>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <div class="loading">Carregando</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Sua mensagem foi enviada. Obrigado!</div>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary btn-submit">SEND MESSAGE</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Satimo</span>
+          </a>
+          <p>Presente em Ariquemes desde 2024, oferecendo a melhor experiência gastronômica.</p>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Links Úteis</h4>
+          <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Termos de serviço</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Nossos Serviços</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Desenvolvimento Web</a></li>
+            <li><a href="#">Gerenciamento de Produto</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Design Gráfico</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Fale Conosco</h4>
+          <p>A108 Rua Vitora</p>
+          <p>Ariquemes, RO 535022</p>
+          <p>Brasil</p>
+          <p class="mt-4"><strong>Telefone:</strong> <span>+55 69 5589 5548 55</span></p>
+          <p><strong>Email:</strong> <span>info@satimo.com</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Direitos Autorais</span> <strong class="px-1 sitename">Sátimo</strong> <span>Todos os Direitos Reservados</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
